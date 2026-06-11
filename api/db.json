@@ -1,0 +1,232 @@
+{
+  "users": [
+    {
+      "email": "lumea@estetica.com",
+      "senha": "2025"
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "Tônico Facial Luméa",
+      "categorias": [
+        "Skin care"
+      ],
+      "descricao": "Controle do brilho, remove as impurezas e minimiza o excesso de brilho do rosto.",
+      "imagens": [
+        "Tónico_Facial.png"
+      ],
+      "id": "p001",
+      "preco": 79.9
+    },
+    {
+      "nome": "Hidratante Facial Luméa",
+      "categorias": [
+        "Skin Care"
+      ],
+      "descricao": "Oferece uma solução abrangente para manter a sua pele saudável.",
+      "imagens": [
+        "Hidratante_Facial.png"
+      ],
+      "id": "p002",
+      "preco": 89.9
+    },
+    {
+      "nome": "Protetor Solar Luméa",
+      "categorias": [
+        "Skin Care",
+        "Homem"
+      ],
+      "descricao": "Oferece alta proteção ao sol. Toque seco de rápida absorção.",
+      "imagens": [
+        "Protetor_Solar.png"
+      ],
+      "id": "p003",
+      "preco": 99.9
+    },
+    {
+      "nome": "Esfoliante Corporal Luméa",
+      "categorias": [
+        "Skin Care",
+        "Homem"
+      ],
+      "descricao": "Body Scrub, esfolia e hidrata, removendo profundamente as impurezas da pele.",
+      "imagens": [
+        "Esfoliante_Corporal.png"
+      ],
+      "id": "p004",
+      "preco": 69.9
+    },
+    {
+      "nome": "Óleo Corporal Luméa",
+      "categorias": [
+        "Skin Care",
+        "Fragrância",
+        "Homem"
+      ],
+      "descricao": "Body Oil realça o brilho natural da pele, deixando-a macia e hidratada o dia todo.",
+      "imagens": [
+        "Óleo_Corporal.png"
+      ],
+      "id": "p005",
+      "preco": 84.5
+    },
+    {
+      "nome": "Sabonete Corporal Luméa",
+      "categorias": [
+        "Corpo & Banho"
+      ],
+      "descricao": "Suavité limpa mas sem agredir a pele, removendo as células mortas.",
+      "imagens": [
+        "Sabonete_Corporal.png"
+      ],
+      "id": "p006",
+      "preco": 39.9
+    },
+    {
+      "nome": "Máscara Facial Luméa",
+      "categorias": [
+        "Skin Care" 
+      ],
+      "descricao": "Radiance Glow foi desenvolvida para revitalizar e iluminar a pele em poucos minutos.",
+      "imagens": [
+        "Máscara_Facial.png"
+      ],
+      "id": "p007",
+      "preco": 59.9
+    },
+    {
+      "nome": "Água Micelar Luméa",
+      "categorias": [
+        "Skin Care",
+        "Maquiagem"
+      ],
+      "descricao": "Micellar Water remove impurezas, maquiagem e oleosidade sem agredir a pele.",
+      "imagens": [
+        "Água_Micelar.png"
+      ],
+      "id": "p008",
+      "preco": 49.9
+    },
+    {
+      "nome": "Antissinais Reparador Luméa",
+      "categorias": [
+        "Skin Care",
+        "Homem"
+      ],
+      "descricao": "Anti-Wrinkle Cream foi desenvolvido para reparar, hidratar e restaurar a firmeza da pele.",
+      "imagens": [
+        "Creme_AntiRugas.png"
+      ],
+      "id": "p009",
+      "preco": 109.9
+    },
+    {
+      "nome": "Rímel Lux Gold",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Lux Gold apresenta o rímel que une sofisticação e poder.",
+      "imagens": [
+        "rimel-removebg-preview 2.svg"
+      ],
+      "preco": 72.5,
+      "id": "p010"
+    },
+    {
+      "nome": "Batom Red Passion",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Red Passion é a definição de ousadia e sofisticação.",
+      "imagens": [
+        "Batom_Luméa_Vermelho_Brilhante-removebg-preview 2.svg"
+      ],
+      "preco": 65.0,
+      "id": "p011"
+    },
+    {
+      "nome": "Makeup Base",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Makeup Base foi desenvolvida para realçar a sua beleza natural.",
+      "imagens": [
+        "Base_de_Maquilhagem_Luméa_200ml-removebg-preview 2.svg"
+      ],
+      "preco": 103.99,
+      "id": "p012"
+    },
+    {
+      "nome": "Eyes Shadow",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "EyesShadow dão um lindo destaque iluminado e moderno.",
+      "imagens": [
+        "paleta_marca_luméa-removebg-preview 2.svg"
+      ],
+      "preco": 99.9,
+      "id": "p013"
+    },
+    {
+      "nome": "Iluminador Golden",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Golden highlighter. Um brilho sutil e elegante.",
+      "imagens": [
+        "iluminador-removebg-preview 2.svg"
+      ],
+      "preco": 53.99,
+      "id": "p014"
+    },
+    {
+      "nome": "Blush Glow Touch",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "O Blush Glow Touch da Luméa, para realçar a beleza natural.",
+      "imagens": [
+        "blush_glow_touch-removebg-preview 2.svg"
+      ],
+      "preco": 105.0,
+      "id": "p015"
+    },
+    {
+      "nome": "Radiance Glow",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Radiance Glow foi desenvolvida para revitalizar e iluminar a pele.",
+      "imagens": [
+        "corretivo__3_-removebg-preview 2.svg"
+      ],
+      "preco": 89.9,
+      "id": "p016"
+    },
+    {
+      "nome": "Black Eye",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Black Eye foi desenvolvido para proporcionar traços precisos e intensos.",
+      "imagens": [
+        "Lápis_de_Boca_Contour_Perfect-removebg-preview 2.svg"
+      ],
+      "preco": 60.0,
+      "id": "p017"
+    },
+    {
+      "nome": "Eternal Glow",
+      "categorias": [
+        "maquiagem"
+      ],
+      "descricao": "Lúmea Eternal Glow traz muito brilho, hidratação leve e lábios irresistíveis.",
+      "imagens": [
+        "Brilho Dourado Luméa.png"
+      ],
+      "preco": 85.5,
+      "id": "p018"
+    }
+  ]
+}

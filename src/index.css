@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* font-family: "Darker Grotesque", sans-serif; */
+}
+
+:root {
+  --corBackground: #fcfcfc;
+  --corPrincipal: #362468;
+  --corCard: #eaf0f7;
+  --corFontEscura: #000000;
+  --alturaRodapé: 60px;
+  --fontLogo: font-family: "Tangerine", cursive;
+  --fontComplementar: font-family: "Darker Grotesque", sans-serif;
+}
+
+body {
+  background-color: var(--corBackground);
+}

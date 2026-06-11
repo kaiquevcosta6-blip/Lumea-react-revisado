@@ -1,0 +1,119 @@
+.banner_1 {
+    margin-top: 50px;
+    background-image: url(./assets/image\ 3.png);
+    width: 60%;
+    aspect-ratio: 3.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-self: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    /* background-color: blueviolet; */
+}
+
+.titulo span {
+    font-size: 90px;
+    font-family: "Tangerine", cursive;
+}
+
+.titulo hr {
+    background-color: #D4A017;
+    width: 300px;
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+}
+
+.acessivel {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+h3 {
+    font-family: "Darker Grotesque", sans-serif;
+    align-items: center;
+}
+
+/* RODAPÉ */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: var(--corPrincipal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-family: "Bona Nova SC", serif;
+    text-align: center;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-self: flex-end;
+    position: relative;
+}
+
+@media screen and (max-width:1108px) {
+    .icone_user {
+        display: none;
+    }
+
+    .container_palavras {
+        position: absolute;
+        overflow-x: hidden;
+        right: -101vw;
+        padding: 20px;
+        background-color: var(--corPrincipal);
+        flex-direction: column;
+        z-index: 2;
+    }
+
+
+    .container_esquerda {
+        top: 100px;
+        gap: 5px;
+    }
+
+    .cab_col1 {
+        display: flex;
+    }
+
+    .col_col3 {
+        display: inline-block;
+        width: 35px;
+        margin-bottom: 40px;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 823px) {
+    .redes_sociais {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner {
+        width: 350px;
+    }
+}

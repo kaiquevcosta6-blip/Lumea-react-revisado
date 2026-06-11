@@ -1,0 +1,41 @@
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: var(--corPrincipal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 9px;
+    font-weight: 200;
+    font-family: "Tangerine", cursive;
+}
+
+.rodape {
+    display: flex;
+}
+
+.whatsapp {
+    width: 30px;
+    padding-top: 11px;
+}
+
+.insta {
+    width: 30px;
+    padding-top: 11px;
+}
+
+.redes_sociais {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    footer {
+        height: 100px;
+    }
+}

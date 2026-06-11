@@ -1,0 +1,31 @@
+.botaoModalCancelar {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: var(--corBackground);
+    font-size: 30px;
+    font-family: "Darker Grotesque", sans-serif;
+    box-shadow: 0 4px 4px 0 #00000025;
+    cursor: pointer;
+    font-family: "Tangerine", cursive;
+}
+
+.botaoSubmitModal {
+    padding: 10px 100px;
+    border-radius: 10px;
+    background-color: var(--corPrincipal);
+    font-size: 32px;
+    font-family: var(--fontComplementar);
+    box-shadow: 0 4px 4px 0 #00000025;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Tangerine", cursive;
+}
+
+.modal-title {
+    font-family: "Tangerine", cursive;
+    font-size: 35px;
+}
+
+.modal-body {
+    font-size: 25px;
+}

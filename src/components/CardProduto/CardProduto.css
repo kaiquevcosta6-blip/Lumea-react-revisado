@@ -1,0 +1,50 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+}
+
+.card_produto {
+    width: 350px;
+   
+    background-color: #E6EFFA;
+    border-radius: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 4px 2px #00000025;
+    border: solid 2px #5070A2;
+    justify-content: center;
+}
+
+.card_produto img {
+    width: 60%;
+}
+
+.card_produto p {
+    font-size: 25px;
+    width: 90%;
+    font-weight: 300;
+}
+
+.card_produto h2 {
+    font-family: "Bona Nova SC", serif;
+}
+
+.cards > div:last-child {
+    justify-content: end;
+    padding-bottom: 15px;
+}
+
+.cards > div:nth-child(4) {
+    justify-content: end;
+    padding-bottom: 15px;
+}
+
+.cards > div:nth-child(4) img {
+    width: 53%;
+}

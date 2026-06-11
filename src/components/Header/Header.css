@@ -1,0 +1,152 @@
+/* HEADER */
+header {
+    background-color: var(--corPrincipal);
+    display: flex;
+}
+
+.container_geral {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me-auto {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* COLUNA 1 - esquerda */
+.col_col1 .nav_esquerda {
+    display: flex;
+    gap: 40px;
+}
+
+.col_col1 .nav_esquerda a {
+    text-decoration: none;
+    color: var(--corBackground);
+    font-size: 28px;
+    font-family: "Tangerine", cursive;
+}
+
+/* COLUNA 2 - busca */
+.busca {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.busca .icone_lupa {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 26px;
+    fill: var(--corBackground);
+    cursor: pointer;
+}
+
+.input-pesquisa {
+    width: 100%;
+    height: 36px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+/* COLUNA 3 - direita */
+.col_col3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lumea_logo {
+    width: 85px;
+    cursor: pointer;
+}
+
+.nav_direita {
+    display: flex;
+    gap: 30px;
+    font-family: "Tangerine", cursive;
+}
+
+.nav_direita a {
+    text-decoration: none;
+    color: var(--corBackground);
+    font-size: 28px;
+}
+
+.botoes_direita {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.botoes_direita button{
+    background-color: transparent;
+}
+
+.add{
+    height: 35px;
+    color: white;
+}
+
+.icone_user, .icone_logout, .icone_login {
+    cursor: pointer;
+    height: 40px;
+    color: white;
+}
+
+/* Ajustes de responsividade mobile */
+.d-md-none {
+    display: none !important;
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 1178px) {
+    .col_col1, .nav_direita {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .input-pesquisa {
+        width: 400px;
+    }
+
+    .lumea_logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .d-md-none {
+        display: block !important;
+    }
+    .d-none.d-md-flex {
+        display: none !important;
+    }
+    .input-pesquisa {
+        width: 100%;
+    }
+    .lumea_logo {
+        width: 100px;
+        margin: 0 auto 1rem;
+    }
+    .btn-logout-mobile {
+        background: transparent;
+        border: none;
+        color: var(--corBackground);
+        cursor: pointer;
+        padding: 0;
+        font-size: 16px;
+    }
+}

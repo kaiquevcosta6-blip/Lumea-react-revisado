@@ -1,0 +1,36 @@
+.card_produto {
+    width: 350px;
+    height: 500px;
+    background-color: #E6EFFA;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 4px 2px #00000025;
+    border: solid 2px #95BCEA;
+}
+
+
+.card_produto img {
+    height: 245px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.card_produto p {
+    font-size: 22px;
+    width: 90%;
+    font-weight: 100;
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: 500;
+}
+
+.card_produto h2 {
+    font-family: "Bona Nova SC", serif;
+    padding-top: 30px;
+}
