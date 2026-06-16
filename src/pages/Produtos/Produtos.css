@@ -26,7 +26,7 @@
 
 .titulo span {
     font-size: 90px;
-    font-family: "Tangerine", cursive;
+   font-family: "Roboto Slab", serif;
 }
 
 .titulo hr {
@@ -47,7 +47,7 @@
 }
 
 h3 {
-    font-family: "Darker Grotesque", sans-serif;
+    font-family:  "Roboto Slab", sans-serif;
     align-items: center;
 }
 

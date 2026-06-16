@@ -6,9 +6,9 @@
 }
 
 .card_produto {
-    width: 350px;
+    width: 420px;
    
-    background-color: #E6EFFA;
+    background-color: #e2e6eb;
     border-radius: 30px;
     text-align: center;
 
@@ -17,7 +17,7 @@
     align-items: center;
     margin-bottom: 100px;
     box-shadow: 0 4px 4px 2px #00000025;
-    border: solid 2px #5070A2;
+    border: solid 2px #ceabde;
     justify-content: center;
 }
 
@@ -26,13 +26,13 @@
 }
 
 .card_produto p {
-    font-size: 25px;
+    font-size: 44px;
     width: 90%;
     font-weight: 300;
 }
 
 .card_produto h2 {
-    font-family: "Bona Nova SC", serif;
+     font-family: "Roboto Slab", serif;
 }
 
 .cards > div:last-child {
