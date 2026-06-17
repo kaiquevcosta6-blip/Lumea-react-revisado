@@ -68,6 +68,7 @@ export default function Maquiagem() {
                         maquiagem.map((m: Maquiagem) => (
                             <CardProduto
                                 key={m.id}
+                                id={m.id}
                                 nome={m.nome}
                                 descricao={m.descricao}
                                 preco={m.preco}

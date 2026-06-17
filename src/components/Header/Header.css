@@ -1,153 +1,175 @@
-/* HEADER */
-header {
+/* HEADER NAVIGATION */
+.main-header {
     background-color: var(--corPrincipal);
-    display: flex;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.container_geral {
-    width: 90%;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-.container_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.me-auto {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* COLUNA 1 - esquerda */
-.col_col1 .nav_esquerda {
-    display: flex;
-    gap: 40px;
-}
-
-.col_col1 .nav_esquerda a {
-    text-decoration: none;
-    color: var(--corBackground);
-    font-size: 28px;
-     font-family: "Roboto Slab", serif;
-}
-
-/* COLUNA 2 - busca */
-.busca {
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-}
-
-.busca .icone_lupa {
-    position: absolute;
-    top: 5px;
-    left: 10px;
-    width: 26px;
-    fill: var(--corBackground);
-    cursor: pointer;
-}
-
-.input-pesquisa {
-    width: 100%;
-    height: 36px;
-    border-radius: 10px;
-    padding-left: 40px;
-}
-
-/* COLUNA 3 - direita */
-.col_col3 {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.navbar-custom {
+    padding: 0.5rem 0;
 }
 
 .lumea_logo {
-    width: 88px;
-    cursor: pointer;
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease;
 }
 
-.nav_direita {
-    display: flex;
-    gap: 30px;
-     font-family: "Roboto Slab", serif;
+.lumea_logo:hover {
+    transform: scale(1.05);
 }
 
-.nav_direita a {
+/* Center Links */
+.nav-links-container {
+    gap: 16px;
+}
+
+.nav-link-item {
     text-decoration: none;
-    color: var(--corBackground);
-    font-size: 28px;
-     font-family: "Roboto Slab", serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+    display: inline-block;
+}
+
+.nav-link-item:hover {
+    color: var(--corAccent);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Search bar styling */
+.busca-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 6px 14px;
+    width: 220px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.busca-container:focus-within {
+    width: 260px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-color: var(--corAccent);
+    box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.2);
+}
+
+.busca-container .icone_lupa {
+    width: 18px;
+    height: 18px;
+    color: #cbd5e1;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    flex-shrink: 0;
+}
+
+.busca-container .icone_lupa:hover {
+    color: var(--corAccent);
+}
+
+.busca-container .input-pesquisa {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 8px;
+    padding: 0;
+}
+
+.busca-container .input-pesquisa::placeholder {
+    color: #94a3b8;
+}
+
+/* Right buttons and icons */
+.right-actions-container {
+    display: flex;
+    align-items: center;
 }
 
 .botoes_direita {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 8px;
 }
 
-.botoes_direita button{
-    background-color: transparent;
-}
-
-.add{
-    height: 35px;
-    color: white;
-}
-
-.icone_user, .icone_logout, .icone_login {
+.btn-action {
+    background: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    text-decoration: none;
     cursor: pointer;
-    height: 50px;
-    color: white;
 }
 
-/* Ajustes de responsividade mobile */
-.d-md-none {
-    display: none !important;
+.btn-action:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--corAccent);
 }
 
-
-/* RESPONSIVIDADE */
-@media screen and (max-width: 1178px) {
-    .col_col1, .nav_direita {
-        display: none;
-    }
+.btn-action svg {
+    width: 24px;
+    height: 24px;
+    color: currentColor;
 }
 
-@media screen and (max-width: 991px) {
-    .input-pesquisa {
-        width: 400px;
-    }
-
-    .lumea_logo {
-        display: none;
-    }
+.btn-logout-icon {
+    outline: none;
 }
 
-@media screen and (max-width: 768px) {
-    .d-md-none {
-        display: block !important;
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
     }
-    .d-none.d-md-flex {
-        display: none !important;
+    
+    .nav-links-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        margin-bottom: 1.5rem;
     }
-    .input-pesquisa {
+    
+    .nav-link-item {
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 6px;
+    }
+    
+    .right-actions-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+    }
+    
+    .busca-container {
         width: 100%;
     }
-    .lumea_logo {
-        width: 100px;
-        margin: 0 auto 1rem;
+    
+    .busca-container:focus-within {
+        width: 100%;
     }
-    .btn-logout-mobile {
-        background: transparent;
-        border: none;
-        color: var(--corBackground);
-        cursor: pointer;
-        padding: 0;
-        font-size: 16px;
+
+    .botoes_direita {
+        justify-content: flex-start;
+        padding-left: 4px;
     }
 }

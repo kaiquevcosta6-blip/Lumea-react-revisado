@@ -11,7 +11,7 @@
       "categorias": [
         "Skin care"
       ],
-      "descricao": "Controle do brilho, remove as impurezas e minimiza o excesso de brilho do rosto.",
+      "descricao": "Controle do brilho, remove as impurezas.",
       "imagens": [
         "Tónico_Facial.png"
       ],
@@ -181,18 +181,6 @@
       "id": "p014"
     },
     {
-      "nome": "Blush Glow Touch",
-      "categorias": [
-        "maquiagem"
-      ],
-      "descricao": "O Blush Glow Touch da Luméa, para realçar a beleza natural.",
-      "imagens": [
-        "blush_glow_touch-removebg-preview 2.svg"
-      ],
-      "preco": 105.0,
-      "id": "p015"
-    },
-    {
       "nome": "Radiance Glow",
       "categorias": [
         "maquiagem"
@@ -203,30 +191,6 @@
       ],
       "preco": 89.9,
       "id": "p016"
-    },
-    {
-      "nome": "Black Eye",
-      "categorias": [
-        "maquiagem"
-      ],
-      "descricao": "Lúmea Black Eye foi desenvolvido para proporcionar traços precisos e intensos.",
-      "imagens": [
-        "Lápis_de_Boca_Contour_Perfect-removebg-preview 2.svg"
-      ],
-      "preco": 60.0,
-      "id": "p017"
-    },
-    {
-      "nome": "Eternal Glow",
-      "categorias": [
-        "maquiagem"
-      ],
-      "descricao": "Lúmea Eternal Glow traz muito brilho, hidratação leve e lábios irresistíveis.",
-      "imagens": [
-        "Brilho Dourado Luméa.png"
-      ],
-      "preco": 85.5,
-      "id": "p018"
     }
   ]
 }

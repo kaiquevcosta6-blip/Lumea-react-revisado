@@ -1,50 +1,84 @@
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10%;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 3rem 2rem;
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 100px;
+    padding: 0 1.5rem;
 }
 
 .card_produto {
-    width: 420px;
-   
-    background-color: #e2e6eb;
-    border-radius: 30px;
+    width: 100%;
+    max-width: 340px;
+    background-color: var(--corCard);
+    border-radius: 80px;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
-    box-shadow: 0 4px 4px 2px #00000025;
-    border: solid 2px #ceabde;
-    justify-content: center;
+    padding: 3rem 2rem 2.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    border: solid 2px rgba(255, 255, 255, 0.05);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.card_produto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    border-color: var(--corAccent);
 }
 
 .card_produto img {
-    width: 60%;
+    width: 65%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
 }
 
-.card_produto p {
-    font-size: 44px;
-    width: 90%;
-    font-weight: 300;
+.card_produto:hover img {
+    transform: scale(1.05);
 }
 
 .card_produto h2 {
-     font-family: "Roboto Slab", serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-family: "Roboto Slab", serif;
+    line-height: 1.3;
+    min-height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cards > div:last-child {
-    justify-content: end;
-    padding-bottom: 15px;
+.card_produto p {
+    font-size: 0.95rem;
+    width: 100%;
+    font-weight: 300;
+    color: var(--corTextMuted);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    flex-grow: 1;
 }
 
-.cards > div:nth-child(4) {
-    justify-content: end;
-    padding-bottom: 15px;
+.info_produtos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
 
-.cards > div:nth-child(4) img {
-    width: 53%;
+.info_produtos span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--corAccent);
+    font-family: "Roboto Slab", serif;
 }

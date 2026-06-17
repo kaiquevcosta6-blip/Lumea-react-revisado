@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
-import type { LinkCategoriaDireitaProps } from "../../types/LinkCategoriaDireitaProps";
 
+interface LinkCategoriaDireitaProps {
+    rota: string;
+    titulo: string;
+}
 
 export default function LinkCategoria({ rota, titulo }: LinkCategoriaDireitaProps) {
     return (
         <Link to={rota}>
-            <a href="">{titulo}</a>
+            {titulo}
         </Link>
     )
 }

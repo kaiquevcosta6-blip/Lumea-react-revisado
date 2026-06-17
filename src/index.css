@@ -3,19 +3,21 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  /* font-family: "Darker Grotesque", sans-serif; */
+  font-family: "Roboto Slab", serif;
 }
 
 :root {
-  --corBackground: #fcfcfc;
-  --corPrincipal: #362468;
-  --corCard: #eaf0f7;
-  --corFontEscura: #000000;
+  --corBackground: #384252;       /* Premium slate gray background */
+  --corPrincipal: #202732;        /* Darker slate gray for header/footer */
+  --corCard: #293241;             /* Modern card background */
+  --corFontEscura: #1a1f26;
   --alturaRodapé: 60px;
-  --fontLogo: font-family: "Tangerine", cursive;
-  --fontComplementar: font-family: "Darker Grotesque", sans-serif;
+  --corAccent: #d4a017;           /* Premium gold accent color */
+  --corTextMuted: #cbd5e1;        /* Light muted slate for secondary text */
 }
 
 body {
+  color: #ffffff;
   background-color: var(--corBackground);
+  min-height: 100vh;
 }

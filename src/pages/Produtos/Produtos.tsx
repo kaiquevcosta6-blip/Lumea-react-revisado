@@ -88,6 +88,7 @@ export default function Produtos() {
                         skinCare.map((sk: SkinCare) => (
                             <CardProduto
                                 key={sk.id}
+                                id={sk.id}
                                 nome={sk.nome}
                                 descricao={sk.descricao}
                                 preco={sk.preco}
